@@ -20,6 +20,7 @@ export const Products: React.FC = () => {
     }
   }, []);
 
+
   const {
     currentPage,
     totalPages,
