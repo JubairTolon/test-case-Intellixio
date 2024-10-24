@@ -20,7 +20,6 @@ export const Products: React.FC = () => {
     }
   }, []);
 
-
   const {
     currentPage,
     totalPages,
@@ -37,6 +36,7 @@ export const Products: React.FC = () => {
     setSelectedProduct(null);
     localStorage.removeItem('selectedProduct');
   }, []);
+
 
   return (
     <div>
