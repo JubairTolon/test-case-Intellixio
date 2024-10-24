@@ -37,6 +37,7 @@ export const Products: React.FC = () => {
     localStorage.removeItem('selectedProduct');
   }, []);
 
+
   return (
     <div>
       <BackToHome />
